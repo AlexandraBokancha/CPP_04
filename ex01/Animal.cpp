@@ -1,14 +1,12 @@
 #include "Animal.hpp"
 
 // Default constructor
-Animal::Animal(void){
-    _type = "animal";
+Animal::Animal(void) : _type("animal"){
     std::cout << "Animal was created" << std::endl;
     return ;
 }
 
-Animal::Animal(std::string const & type){
-    this->_type = type;
+Animal::Animal(std::string const & type) : _type(type) {
     std::cout << "Animal was created (parameters constructor)" << std::endl;
 }
 

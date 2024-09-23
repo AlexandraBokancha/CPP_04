@@ -10,6 +10,10 @@ Non-virtual members can also be redefined in derived classes, but non-virtual me
 
     Every time when we call a virtual function, we need to go through the V table to determine which function to map to use
 
+the linkage is dynamic and not static;
+
+virtual member function will be called a method
+which resolution will be dynamic -> will be done during the execution;
 
 2. Virtual destructor
 

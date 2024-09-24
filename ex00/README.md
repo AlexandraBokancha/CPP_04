@@ -26,3 +26,4 @@ which resolution will be dynamic -> will be done during the execution;
         destructor will be called at run time, but it called the derived class first
         and then base class to release the space occupied by both destructors.
 
+more info: https://isocpp.org/wiki/faq/virtual-functions
